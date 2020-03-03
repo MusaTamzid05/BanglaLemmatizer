@@ -1,4 +1,4 @@
-from bn_pos.pos import POS
+from bn_processor.pos import POS
 
 def main():
 
