@@ -30,6 +30,6 @@ class POS:
         if word in self.verbs:
             return "verb"
 
-        return None
+        return "noun"
 
 

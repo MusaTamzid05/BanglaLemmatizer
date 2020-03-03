@@ -1,11 +1,12 @@
-from bn_processor.pos import POS
+from bn_processor.lemmatizer import BanglaLemmatizer
 
 def main():
 
-    pos = POS()
+    lem = BanglaLemmatizer()
 
     while True:
-        print(pos.get_pos_of(input(">> ")))
+        print(lem.lemmatize(input(">>")))
+
 
 
 if __name__ == "__main__":
